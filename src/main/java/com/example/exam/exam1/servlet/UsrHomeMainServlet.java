@@ -1,4 +1,4 @@
-package com.example.exam.exam1;
+package com.example.exam.exam1.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @WebServlet("/usr/home/main")
-public class UsrHomeMain extends HttpServlet {
+public class UsrHomeMainServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 
